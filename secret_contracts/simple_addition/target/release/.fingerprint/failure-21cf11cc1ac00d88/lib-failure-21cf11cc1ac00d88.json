@@ -1,0 +1,1 @@
+{"rustc":9575767716974506983,"features":"[\"derive\", \"failure_derive\"]","target":11808035828096924103,"profile":4949808943094707866,"path":9120564531109890982,"deps":[[7426567782682938305,"failure_derive",false,8008093996017661011]],"local":[{"Precalculated":"0.1.5"}],"rustflags":[],"metadata":364279216509078253}

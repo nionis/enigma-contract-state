@@ -1,0 +1,1 @@
+/home/nioni/Documents/work/research_2/secret_contracts/simple_addition/target/wasm32-unknown-unknown/release/contract.wasm: /home/nioni/Documents/work/research_2/secret_contracts/simple_addition/src/lib.rs
