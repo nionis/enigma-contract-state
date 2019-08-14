@@ -47,8 +47,8 @@ contract("Sample", accounts => {
 
   let task;
   it('should execute compute task', async () => {
-    let taskFn = 'toggle_bool(address)';
-    let taskArgs = [[SampleContract.address, "address"]];
+    let taskFn = 'toggle_bool(string)';
+    let taskArgs = [[SampleContract.address, "string"]];
     let taskGasLimit = 100000;
     let taskGasPx = utils.toGrains(1);
     const contractAddr = fs.readFileSync('test/simple_addition.txt', 'utf-8');

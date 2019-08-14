@@ -16,14 +16,13 @@ struct EthContract;
 
 #[pub_interface]
 pub trait ContractInterface {
-  fn toggle_bool(H160) -> ();
+  fn toggle_bool(String) -> ();
 }
 
 pub struct Contract;
 impl ContractInterface for Contract {
-  fn toggle_bool(address: H160) -> () {
-    let address_str: String = address.to_hex();
-    let c = EthContract::new(&address_str);
+  fn toggle_bool(address: String) -> () {
+    let c = EthContract::new(&address);
     c.toggleBool();
   }
 }
